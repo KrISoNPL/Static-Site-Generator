@@ -1,7 +1,7 @@
 from textnode import TextNode, TextType
 
 def main():
-    object = TextNode("okay", TextType.NORMAL, 'https://www.boot.dev')
-    print(object)
+    variable = TextNode("osiem", TextType.TEXT, "www.google.com")
+    print(variable)
 
 main()
